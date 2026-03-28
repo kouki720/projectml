@@ -1,0 +1,41 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  @apply antialiased bg-gray-50; /* couleur de fond par défaut */
+}
+
+/* Buttons */
+.btn-primary {
+  @apply bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105;
+}
+
+/* Cards */
+.card {
+  @apply bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300;
+}
+
+/* App logo animation */
+.App-logo {
+  @apply h-[40vmin] pointer-events-none;
+  animation: App-logo-spin 20s linear infinite;
+}
+
+/* App header */
+.App-header {
+  @apply bg-[#282c34] min-h-screen flex flex-col items-center justify-center text-white text-[calc(10px+2vmin)];
+}
+
+/* Links */
+.App-link {
+  @apply text-[#61dafb];
+}
+
+/* Keyframes */
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
