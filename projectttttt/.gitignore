@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow artifacts
+projectttttt/mlruns/
+
+# Models lourds
+*.pkl
+*.h5
+
+# Node/React
+car-prediction-tunisia/node_modules/
+car-prediction-tunisia/build/
+
+# OS
+.DS_Store
+Thumbs.db
